@@ -22,6 +22,7 @@
 		6C3CE9B11E4A276B000D074C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C3CE9B41E4A276B000D074C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C3CE9B61E4A276B000D074C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF4C4A11E4B8A4A00892D9E /* MemeMe-1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MemeMe-1.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		6C3CE9A91E4A276B000D074C /* MemeMe-1 */ = {
 			isa = PBXGroup;
 			children = (
+				6CF4C4A11E4B8A4A00892D9E /* MemeMe-1.entitlements */,
 				6C3CE9AA1E4A276B000D074C /* AppDelegate.swift */,
 				6C3CE9AC1E4A276B000D074C /* ViewController.swift */,
 				6C3CE9AE1E4A276B000D074C /* Main.storyboard */,
@@ -98,6 +100,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = C5H2C97848;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -302,6 +309,7 @@
 				6C3CE9BB1E4A276B000D074C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
